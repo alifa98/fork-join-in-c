@@ -64,7 +64,7 @@ int main() {
     clock_t endTime = clock();
 
 
-    printf("Execution time for size %d is %f seconds\n", (HISTOGRAM_HALF_WIDTH * 2 + 1),
+    printf("Execution time for sample size %d is %f seconds\n", TOTAL_SAMPLES,
            ((double) (endTime - startTime)) / CLOCKS_PER_SEC);
 
     int *hist = (int *) shmat(sharedMemoryId, (void *) 0, 0);

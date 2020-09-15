@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 #define  HISTOGRAM_HALF_WIDTH 12
-#define  TOTAL_SAMPLES 500
+#define  TOTAL_SAMPLES 500000
 
 int getSample();
 
